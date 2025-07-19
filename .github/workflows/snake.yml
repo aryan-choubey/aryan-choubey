@@ -2,24 +2,26 @@ name: Generate Snake 🐍
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Every day at midnight UTC
+    - cron: "0 0 * * *"   # every day at midnight
   workflow_dispatch:
 
 jobs:
   generate:
     runs-on: ubuntu-latest
+
     steps:
       - name: Generate Snake SVG
-        uses: Platane/snk@v3
+        uses: Platane/snk@master  # ✅ Use master to support `outputs`
         with:
-          github_user_name: aryankumar         # ✅ Your GitHub username
-          output_path: dist/snake.svg          # ✅ Use `output_path` instead of `outputs`
+          github_user_name: aryankumar
+          outputs: |
+            dist/snake.svg        # ✅ This creates the 'dist' folder
 
       - name: Push to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
-          build_dir: dist
+          build_dir: dist         # ✅ This matches the generated folder
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
