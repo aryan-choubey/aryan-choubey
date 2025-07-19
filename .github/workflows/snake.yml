@@ -13,7 +13,7 @@ jobs:
       - name: Generate Snake SVG
         uses: Platane/snk@master  # ✅ Use master to support `outputs`
         with:
-          github_user_name: aryankumar
+          github_user_name: aryan-choubey
           outputs: |
             dist/snake.svg        # ✅ This creates the 'dist' folder
 
