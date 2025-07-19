@@ -42,5 +42,7 @@
 <!-- 🐍 Snake animation -->
 ### 🐍 Watch the Snake Eating My Contributions!
 
-<img src="https://raw.githubusercontent.com/aryan-choubey/aryan-choubey/output/snake.svg" alt="Snake animation" />
+### 🐍 Watch the Snake Eating My Contributions!
+
+![snake gif](https://github.com/aryan-choubey/aryan-choubey/blob/output/dist/snake.svg)
 
