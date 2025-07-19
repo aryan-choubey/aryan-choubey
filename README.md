@@ -40,4 +40,7 @@
 <br clear="both">
 
 <!-- 🐍 Snake animation -->
-<img src="https://raw.githubusercontent.com/Aryan/Aryan/output/snake.svg" alt="Snake animation" />
+### 🐍 Watch the Snake Eating My Contributions!
+
+<img src="https://raw.githubusercontent.com/your-username/your-username/output/snake.svg" alt="Snake animation" />
+
