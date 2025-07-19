@@ -42,5 +42,5 @@
 <!-- 🐍 Snake animation -->
 ### 🐍 Watch the Snake Eating My Contributions!
 
-<img src="https://raw.githubusercontent.com/aryankumar/aryankumar/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/aryan-choubey/aryan-choubey/output/snake.svg" alt="Snake animation" />
 
